@@ -1,8 +1,10 @@
 import React from "react";
 
+import "./styles.scss";
+
 export const WhyUs = () => {
   return (
-    <div>
+    <div id="why-us-container">
       <h2>Why Us</h2>
       <ul>
         <li>Tutorials by industry experts</li>

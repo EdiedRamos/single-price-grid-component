@@ -1,0 +1,29 @@
+#price-layout-container {
+  width: 350px;
+  margin: 2rem auto;
+  display: grid;
+}
+
+@media (min-width: 991px) {
+  #price-layout-container {
+    width: 700px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 1fr;
+  }
+
+  #join-container {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 2.5rem;
+  }
+
+  #monthly-container {
+    border-radius: 0 0 0 8px;
+    padding: 2.5rem;
+  }
+
+  #why-us-container {
+    border-radius: 0 0 8px 0;
+    padding: 2.5rem;
+  }
+}

@@ -1,0 +1,18 @@
+@import "../../styles/colors";
+
+#why-us-container {
+  background-color: $light-cyan;
+  padding: 2rem;
+  color: white;
+  border-radius: 0 0 10px 10px;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    margin-bottom: 1rem;
+    color: $light-gray;
+  }
+}
